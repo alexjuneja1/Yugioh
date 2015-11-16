@@ -1,0 +1,8 @@
+<h1><%= title %></h1>
+<p><%= message %></p>
+
+<ul>
+  <% cafes.forEach(function(cafe){ %>
+    <li><%= cafe.name %> | <%= cafe.address %></li>
+  <% }) %>
+</ul>
